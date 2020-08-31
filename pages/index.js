@@ -10,20 +10,20 @@ export default function Home() {
   console.log(Router)
 
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Devter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <main>
+        <h1>
           <a href="/">Devter</a>
         </h1>
         <nav>
           <Link href='/timeline'><a>Timeline</a></Link>
         </nav>
       </main>
-    </div>
+    </>
   )
 }
